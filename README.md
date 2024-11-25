@@ -6,6 +6,7 @@ A simple todo list app built with Next.js, React, and Redux.
 Table of Contents
 -----------------
 
+* [Important Note](#important-note)
 * [Features](#features)
 * [Getting Started](#getting-started)
 * [Project Structure](#project-structure)
@@ -13,6 +14,8 @@ Table of Contents
 * [Store and Reducers](#store-and-reducers)
 * [Actions](#actions)
 * [Technologies Used](#technologies-used)
+
+Important Note: this project is using React 19 and the dependencies may not install right away. please use thne command`npm install --legacy-peer-deps` to install the project
 
 Features
 --------
@@ -25,7 +28,7 @@ Getting Started
 ---------------
 
 1. Clone the repository: `git clone https://github.com/your-username/bw-todo-app.git`
-2. Install dependencies: `npm install` or `yarn install`
+2. Install dependencies: `npm install --legacy-peer-deps` or `yarn install`
 3. Start the development server: `npm run dev` or `yarn dev`
 4. Open your browser at `http://localhost:3000`
 
