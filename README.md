@@ -1,11 +1,3 @@
-
-
-Here is the updated README:
-
-
-[README.md]
-================
-
 BW Todo App
 -----------
 
