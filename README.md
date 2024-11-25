@@ -18,7 +18,7 @@ Table of Contents
 Important Note
 ---------------
 
-this project is using React 19 and the dependencies may not install right away. please use thne command`npm install --legacy-peer-deps` to install the project
+this project is using React 19 and the dependencies may not install correctly. please use thne command`npm install --legacy-peer-deps` to install the project
 
 Features
 --------
@@ -31,7 +31,7 @@ Getting Started
 ---------------
 
 1. Clone the repository: `git clone https://github.com/your-username/bw-todo-app.git`
-2. Install dependencies: `npm install --legacy-peer-deps` or `yarn install`
+2. Install dependencies: `npm install --legacy-peer-deps` or `yarn install --legacy-peer-deps`
 3. Start the development server: `npm run dev` or `yarn dev`
 4. Open your browser at `http://localhost:3000`
 
