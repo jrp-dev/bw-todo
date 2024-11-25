@@ -15,7 +15,10 @@ Table of Contents
 * [Actions](#actions)
 * [Technologies Used](#technologies-used)
 
-Important Note: this project is using React 19 and the dependencies may not install right away. please use thne command`npm install --legacy-peer-deps` to install the project
+Important Note
+---------------
+
+this project is using React 19 and the dependencies may not install right away. please use thne command`npm install --legacy-peer-deps` to install the project
 
 Features
 --------
