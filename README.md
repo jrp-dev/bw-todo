@@ -71,5 +71,3 @@ Technologies Used
 * **Form Management**: React Hook Form
 * **Date Library**: date-fns
 * **Build Tool**: TurboPack
-
-Note: This is a basic README file, and you should update it to include more details about your project, such as dependencies, licensing, and contribution guidelines.
