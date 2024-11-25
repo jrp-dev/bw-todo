@@ -26,6 +26,28 @@ interface DataTableProps<TData, TValue> {
   data: TData[];
 }
 
+/**
+ * A reusable data table component that uses @tanstack/react-table under the hood.
+ *
+ * @example
+ * import { DataTable } from "@/components/data-table";
+ *
+ * const columns = [
+ *   { accessorKey: "title", header: "Task" },
+ *   { accessorKey: "description", header: "Description" },
+ *   { accessorKey: "status", header: "Status" },
+ *   { accessorKey: "due_date", header: "Due Date" },
+ * ];
+ *
+ * const data = [
+ *   { id: "1", title: "title 1", description: "description 1", status: "Pending", due_date: "2024-11-20" },
+ *   { id: "2", title: "title 2", description: "description 2", status: "In Progress", due_date: "2024-11-20" },
+ *   { id: "3", title: "title 3", description: "description 3", status: "Completed", due_date: "2024-11-30" },
+ * ];
+ *
+ * <DataTable columns={columns} data={data} />;
+ */
+
 export function DataTable<TData, TValue>({
   columns,
   data,

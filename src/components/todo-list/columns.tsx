@@ -3,6 +3,11 @@ import RowActions from "./row-actions";
 import { ColumnDef } from "@tanstack/react-table";
 import { format, isBefore } from "date-fns";
 
+/**
+ * Generates columns for task table. See react-table docs for more info
+ * @param args TRowActions
+ * @returns array of columns
+ */
 export const getTodoColumns: (
   args: TRowActions
 ) => ColumnDef<TTodoItem>[] = (args) => {

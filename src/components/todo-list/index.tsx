@@ -4,6 +4,10 @@ import { Button } from "../ui/button";
 import { TodoForm } from "./form";
 import useViewModel from "./useViewModel";
 
+/**
+ * Displays the list of tasks. You can add,edit and delete tasks.
+ * @returns JSX Element
+ */
 const TodoList = () => {
   const { model, actions } = useViewModel();
   return ( <div>

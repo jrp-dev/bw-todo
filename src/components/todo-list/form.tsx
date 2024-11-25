@@ -34,6 +34,20 @@ import { Calendar } from "../ui/calendar"
 import { cn } from "@/lib/utils";
 import { STATUS_OPTIONS } from "@/common/constants"
 
+export type TTodoForm = {
+  form: UseFormReturn<z.infer<typeof FormSchema>>;
+  openDialog: boolean;
+  title: string;
+  description?: string;
+  onSubmit: (data: z.infer<typeof FormSchema>) => void;
+  toggleDialog: (arg: boolean) => void;
+}
+
+/**
+ * 
+ * @param TTodoForm
+ * @returns JSX Element
+ */
 export function TodoForm({
   form,
   openDialog,
@@ -41,14 +55,7 @@ export function TodoForm({
   description,
   onSubmit,
   toggleDialog,
-}: {
-  form: UseFormReturn<z.infer<typeof FormSchema>>;
-  openDialog: boolean;
-  title: string;
-  description?: string;
-  onSubmit: (data: z.infer<typeof FormSchema>) => void;
-  toggleDialog: (arg: boolean) => void;
-}) {
+}: TTodoForm) {
   return (
     <Dialog open={openDialog} onOpenChange={toggleDialog}>
       <DialogContent className="sm:max-w-[425px]">
