@@ -59,7 +59,6 @@ const useViewModel = () => {
         ...payload,
         id: data?.length + 1,
       };
-      console.log('addPayload :', addPayload);
       dispatch(addTodo(addPayload))
     }
     setOpenAddDialog(false);
@@ -68,8 +67,7 @@ const useViewModel = () => {
 
   const columns = getTodoColumns({ onEdit, onDelete });
 
-  const formTitle = formMode === "update" ? "Update Item" : "Add Item";
-  const formDescription = formMode === "update" ? "Update Item" : "Add Item";
+  const formTitle = formMode === "update" ? "Update Task" : "Add Task";
 
   return {
     model: {
@@ -79,7 +77,6 @@ const useViewModel = () => {
       openAddDialog,
       formMode,
       formTitle,
-      formDescription,
       openDeleteDialog,
     },
     actions: {

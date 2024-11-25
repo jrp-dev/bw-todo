@@ -7,6 +7,7 @@ Table of Contents
 -----------------
 
 * [Important Note](#important-note)
+* [Demo](#demo)
 * [Features](#features)
 * [Getting Started](#getting-started)
 * [Project Structure](#project-structure)
@@ -18,7 +19,11 @@ Table of Contents
 Important Note
 ---------------
 
-this project is using React 19 and the dependencies may not install correctly. please use thne command`npm install --legacy-peer-deps` to install the project
+this project is using React 19 and the dependencies may not install correctly. please use the command`npm install --legacy-peer-deps` to install the project in case the installment fails.
+
+Demo
+----
+https://bw-todo.vercel.app/
 
 Features
 --------
