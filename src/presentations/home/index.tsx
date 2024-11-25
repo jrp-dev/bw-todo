@@ -1,9 +1,15 @@
 'use client';
+import { APP_TITLE } from "@/common/constants";
+import TodoList from "@/components/todo-list";
+
 const HomePresentation = () => {
-  return ( 
-    <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
-      BW Todo App.
-    </h1>
+  return (
+    <div className="p-4">
+      <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight py-2">
+        {APP_TITLE}
+      </h3>
+        <TodoList />
+    </div>
    );
 }
  
